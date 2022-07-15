@@ -2,6 +2,7 @@
 Choose a color from a color wheel via GUI, click it, and its RGB data is written into a csv file.  
 You can choose the brightness from the slider upper left. the color wheel reflects hue and saturation.  
 You can also check the location of your mouse coodinates, the RGB value of the pixel you are selecting, and the number you choose colors from the color wheel.  
+It only saves the RGB values of the pixel inside of the color palette and increment the "num" (which means you won't accidentarily save the RGB values of pixels outside of palette, and of the slider)
 
 ## Sample Images
 ### The UI

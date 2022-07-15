@@ -8,6 +8,7 @@ float r_clicked, g_clicked, b_clicked;
 String tcr,tcg,tcb;
 boolean clicked_in_colorwheel = true; //flag as to whether the mouse is clicked inside of the colorwheel
 int slider_width, slider_height, slider_x, slider_y;
+int counter = 0; // for counting the total clicks (the number you choose the color)
 
 // you can choose the initial background color and the csv file name here.
 int background_init_color = 200;
@@ -76,7 +77,7 @@ void draw(){
  
   //for displaying RGB colors
   fill(50,100,255,200);
-  rect(width - 80,height - 52,100,52);
+  rect(width - 80,height - 64,100,64);
   
   // display RGB
   r_clicked = red(c)*255/360; //even though c has values in rgb, its scale is as same as hsb, so we need to adjust the value according to 0-255 scale 
@@ -88,7 +89,8 @@ void draw(){
   fill(255,255,255);
   textSize(12);
   //text("slider_x,slider_y ="+ str(slider_x)+","+str(slider_y),width - 80,height - 52);
-  text("x,y ="+ str(mouseX)+","+str(mouseY),width - 80,height - 40);
+  text("num :"+ str(counter),width - 80,height - 52);
+  text("x,y :"+ str(mouseX)+","+str(mouseY),width - 80,height - 40);
   text(tcr,width - 80,height - 28);
   text(tcg,width - 80,height - 16);
   text(tcb,width - 80,height - 4);
@@ -145,6 +147,7 @@ void mouseReleased() {
     file.print(",");
     file.println(b_clicked);
     file.flush();
+    counter +=1;
     textSize(100);
     text("saved!",width/2-140,height/2); //TODO: the text only appears for a short period, will multithreding do?
   }

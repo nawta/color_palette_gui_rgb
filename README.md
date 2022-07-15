@@ -31,11 +31,11 @@ When you execute the program, click the color from the color wheel.
 After you clicked RGB pixels enough, press 'q' to exit, and you'll see a csv file is output.  
 
 
-you can choose the initial background color and the csv file name by changing the value or path in color_palette_gui_rgb.pde
+you can choose the initial background color and the csv file name by changing the value or path in color_palette_gui_rgb.pde  
 <img width="272" alt="スクリーンショット 2022-07-16 7 26 36" src="https://user-images.githubusercontent.com/39507181/179319187-d2e2ec6a-765c-4ca4-aa66-2b4cb3487bb3.png">
 
 
-csv file is written like below. The three columns correspond to R, G, and B values. The records are written from above to below.  
+csv file is written like below. The three columns correspond to R, G, and B values. The records are written from above to below.    
 <img width="410" alt="スクリーンショット 2022-07-16 6 49 32" src="https://user-images.githubusercontent.com/39507181/179318831-d214ad07-b132-47ef-af4e-f685dd47236e.png">
 
 

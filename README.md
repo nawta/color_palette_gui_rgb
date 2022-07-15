@@ -40,6 +40,6 @@ csv file is written like below. The three columns correspond to R, G, and B valu
 
 
 ## Contact
-If you find an issue, comments, or requests, feel free to reach out. [nawta@e.gcc.u-tokyo.ac.jp](<mailto:nawta@e.gcc.u-tokyo.ac.jp>)
+If you find any issue, comment, or request, feel free to reach out. [nawta@e.gcc.u-tokyo.ac.jp](<mailto:nawta@e.gcc.u-tokyo.ac.jp>)
 
 

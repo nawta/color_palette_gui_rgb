@@ -38,4 +38,7 @@ csv file is written like below. The three columns correspond to R, G, and B valu
 <img width="410" alt="スクリーンショット 2022-07-16 6 49 32" src="https://user-images.githubusercontent.com/39507181/179318831-d214ad07-b132-47ef-af4e-f685dd47236e.png">
 
 
+## Contact
+If you find an issue, comments, or requests, feel free to reach out. [nawta@e.gcc.u-tokyo.ac.jp](<mailto:nawta@e.gcc.u-tokyo.ac.jp>)
+
 
